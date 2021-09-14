@@ -49,7 +49,7 @@ You can now restart the site via Local, fix the url if needed and go to site to 
 
 ![8](https://user-images.githubusercontent.com/54714270/133251082-bb2bc069-168a-4b06-b3af-aad08be1f0ec.png)
 
-## 👤 Create User with shell
+## 👤 Create a wordpress user with WP CLI
 
 Full doc here :
 https://developer.wordpress.org/cli/commands/user/create/
