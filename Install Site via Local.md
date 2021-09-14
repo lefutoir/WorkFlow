@@ -31,8 +31,6 @@ Put your password if asked
 
 # Keep the `.sql` file somewhere handy
 
-## Once you're done go back to the followings step
-
 ![6](https://user-images.githubusercontent.com/54714270/133250996-76c15a26-daac-44e0-9e5a-6f1f458a0e88.png)
 
 Open shell
@@ -41,7 +39,9 @@ Open shell
 
 Put this code in the terminal : `wb db import`
 
-You can drag and drop the path to the .sql file or write it **after the command line**.
+You can drag and drop the path to the .sql file (exemple in gif below) or write it **after the command line**.
+
+![how-to-change-the-folder-in-command-prompt-on-windows-10-picture-1-hHNfOOpLA](https://user-images.githubusercontent.com/54714270/133266353-f685a2c5-617d-4cb3-a835-e034aa4bdd5d.gif)
 
 ![7](https://user-images.githubusercontent.com/54714270/133251043-57f3a842-5b05-47af-b67a-e673ee9b98a6.png)
 
@@ -49,7 +49,10 @@ You can now restart the site via Local, fix the url if needed and go to site to 
 
 ![8](https://user-images.githubusercontent.com/54714270/133251082-bb2bc069-168a-4b06-b3af-aad08be1f0ec.png)
 
-## 👤 Create User with shell
+## 👤 Create a wordpress user with WP CLI
+
+Full doc here :
+https://developer.wordpress.org/cli/commands/user/create/
 
 ![Capture d’écran 2021-09-14 à 11 12 45 1](https://user-images.githubusercontent.com/54714270/133251213-866a30d0-836f-4d5d-82a8-bf02114f54f5.png)
 
@@ -67,3 +70,9 @@ Write `wp user create [name] [mail@mail.com] —role=[role]`
 
 
 It will give you your password, you can now try to login with your username and password. You can change your password later from the WordPress Interface.
+
+
+Sorry for the long post, here is some potatoes :
+
+![potato-power](https://user-images.githubusercontent.com/54714270/133268813-bd93af25-c4ac-4cc2-8483-06df44f5bd33.png)
+
